@@ -1,0 +1,86 @@
+button:focus {
+  outline: none;
+}
+
+/*Home page button*/
+
+.heading button {
+  font-family: "Play", sans-serif;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  width: 6.8rem;
+  height: 2.3rem;
+  background-color: white;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 10px black;
+  cursor: pointer;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+}
+
+.heading button:hover {
+  box-shadow: 0px 0px 0px black;
+  transition: 0.3s;
+  box-shadow: inset 0 0 5px #000000;
+}
+
+/*Login page button*/
+.login-button {
+  font-family: "Play", sans-serif;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  width: 13rem;
+  height: 2.3rem;
+  background-color: white;
+  border: 0.1rem solid rgb(34, 33, 33);
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 10px rgb(34, 33, 33);
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.login-button:hover {
+  box-shadow: 0px 0px 0px rgb(34, 33, 33);
+  transition: 0.2s;
+}
+
+.signup-button {
+  font-family: "Play", sans-serif;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  width: 13rem;
+  height: 2.3rem;
+  background-color: rgb(34, 33, 33);
+  border: 0.1rem solid white;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 10px rgb(34, 33, 33);
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.signup-button:hover {
+  box-shadow: 0px 0px 0px rgb(34, 33, 33);
+  transition: 0.2s;
+}
+
+.cart-item-button {
+  font-family: "Play", sans-serif;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  width: 13rem;
+  height: 2.3rem;
+  background-color: rgb(34, 33, 33);
+  border: 0.1rem solid white;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 10px rgb(34, 33, 33);
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.cart-item-button:hover {
+  box-shadow: 0px 0px 0px rgb(34, 33, 33);
+  transition: 0.2s;
+}

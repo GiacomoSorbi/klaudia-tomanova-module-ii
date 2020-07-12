@@ -1,0 +1,23 @@
+#hero-img {
+  margin-top: -2rem;
+  z-index: -1;
+  position: absolute;
+  width: 100vw;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  margin: 9rem auto auto 9rem;
+}
+
+.heading h1 {
+  font-family: "MuseoModerno", cursive;
+  font-size: 3.5rem;
+}
+
+.heading h3 {
+  font-family: "Play", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}

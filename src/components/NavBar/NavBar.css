@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-family: "MuseoModerno", cursive;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.navigation {
+  font-family: "Play", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation a.active {
+  border-bottom: 1px solid black;
+}
+
+.sub-nav {
+  margin-top: 1rem;
+  position: absolute;
+  display: flex;
+  z-index: -1;
+}
+
+.sub-nav li {
+  list-style: none;
+}
+
+.sub-nav a {
+  margin: 1.5rem 1rem;
+}
+
+.home-link:checked .sub-nav {
+  z-index: 100;
+}
