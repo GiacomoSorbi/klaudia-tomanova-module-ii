@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/klaudia-tomanova-module-ii/static/css/main.4a1cfe4e.chunk.css",
+    "main.js": "/klaudia-tomanova-module-ii/static/js/main.208ece2d.chunk.js",
+    "main.js.map": "/klaudia-tomanova-module-ii/static/js/main.208ece2d.chunk.js.map",
+    "runtime-main.js": "/klaudia-tomanova-module-ii/static/js/runtime-main.be4cd13e.js",
+    "runtime-main.js.map": "/klaudia-tomanova-module-ii/static/js/runtime-main.be4cd13e.js.map",
+    "static/js/2.e71209ce.chunk.js": "/klaudia-tomanova-module-ii/static/js/2.e71209ce.chunk.js",
+    "static/js/2.e71209ce.chunk.js.map": "/klaudia-tomanova-module-ii/static/js/2.e71209ce.chunk.js.map",
+    "index.html": "/klaudia-tomanova-module-ii/index.html",
+    "precache-manifest.16fbebf17e3bce818945b72a732992e2.js": "/klaudia-tomanova-module-ii/precache-manifest.16fbebf17e3bce818945b72a732992e2.js",
+    "service-worker.js": "/klaudia-tomanova-module-ii/service-worker.js",
+    "static/css/main.4a1cfe4e.chunk.css.map": "/klaudia-tomanova-module-ii/static/css/main.4a1cfe4e.chunk.css.map",
+    "static/js/2.e71209ce.chunk.js.LICENSE.txt": "/klaudia-tomanova-module-ii/static/js/2.e71209ce.chunk.js.LICENSE.txt",
+    "static/media/404.svg": "/klaudia-tomanova-module-ii/static/media/404.bd735a43.svg",
+    "static/media/dress.jpg": "/klaudia-tomanova-module-ii/static/media/dress.54dc0ff8.jpg",
+    "static/media/hero.jpg": "/klaudia-tomanova-module-ii/static/media/hero.c48ea142.jpg",
+    "static/media/shirt.jpg": "/klaudia-tomanova-module-ii/static/media/shirt.ad3fc691.jpg",
+    "static/media/shorts.jpg": "/klaudia-tomanova-module-ii/static/media/shorts.d46ae72c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be4cd13e.js",
+    "static/js/2.e71209ce.chunk.js",
+    "static/css/main.4a1cfe4e.chunk.css",
+    "static/js/main.208ece2d.chunk.js"
+  ]
+}
