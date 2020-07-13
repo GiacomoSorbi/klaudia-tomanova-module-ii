@@ -7,7 +7,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { NavBar } from "./components";
 
 ReactDOM.render(
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router basename={process.env.{`https://giacomosorbi.github.io/klaudia-tomanova-module-ii/`}}>
     <React.StrictMode>
       <NavBar />
       <App />
