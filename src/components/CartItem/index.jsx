@@ -22,11 +22,12 @@ const CartItem = ({ id, name, price, qty, img }) => {
         <div className="item-name">{name}</div>
         <div className="item-price">${price}</div>
         <Button
+          disabled
           className="cart-item-button"
           onClick={alertButton}
           type="submit"
         >
-          Add To Cart
+          Sold Out
         </Button>
       </div>
     </div>

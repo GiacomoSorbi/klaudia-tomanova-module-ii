@@ -11,12 +11,12 @@ const Footer = () => (
         <NavLink to="/about" exact>
           <span>O nás</span>
         </NavLink>
-        <a href="#">
+        <NavLink to="*">
           <span>Kontakt</span>
-        </a>
-        <a href="#">
+        </NavLink>
+        <NavLink to="*">
           <span>FAQs</span>
-        </a>
+        </NavLink>
       </div>
       <div className="footer-social">
         <a className="social" href="#">
