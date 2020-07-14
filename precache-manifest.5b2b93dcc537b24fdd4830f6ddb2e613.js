@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb1335824a077dec45abd22d16ff0a46",
+    "revision": "fb49eea18fc9f477f49e2d9936b76db8",
     "url": "/klaudia-tomanova-module-ii/index.html"
   },
   {
-    "revision": "dd11b2f3446273481b39",
-    "url": "/klaudia-tomanova-module-ii/static/css/main.4a1cfe4e.chunk.css"
+    "revision": "d50a23ddb5bef893a90d",
+    "url": "/klaudia-tomanova-module-ii/static/css/main.5280c61b.chunk.css"
   },
   {
     "revision": "27a23928238b77ac9986",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/klaudia-tomanova-module-ii/static/js/2.e71209ce.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd11b2f3446273481b39",
-    "url": "/klaudia-tomanova-module-ii/static/js/main.208ece2d.chunk.js"
+    "revision": "d50a23ddb5bef893a90d",
+    "url": "/klaudia-tomanova-module-ii/static/js/main.2ab9b93e.chunk.js"
   },
   {
     "revision": "27f27234eade559a2527",
