@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import { Button, Input, Footer } from "../../components";
 
 const Login = () => {
-  const signup = () => {
+  const signIn = () => {
     inputs.value
       ? alert("You are logged in!")
       : alert("You have to fill in all the fields first");
@@ -16,7 +16,7 @@ const Login = () => {
       email: "",
       password: "",
     },
-    signup
+    signIn
   );
 
   return (

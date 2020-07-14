@@ -4,7 +4,7 @@ import "./Registration.css";
 import { Button, Input, Footer } from "../../components/index";
 
 const Registration = () => {
-  const signup = () => {
+  const signUp = () => {
     inputs.value
       ? alert(`UserCreated! Name: ${inputs.name} Email: ${inputs.email}`)
       : alert("You have to fill in all the fields first");
@@ -23,7 +23,7 @@ const Registration = () => {
       passwordOne: "",
       passwordTwo: "",
     },
-    signup
+    signUp
   );
 
   return (
