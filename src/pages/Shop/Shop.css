@@ -12,3 +12,16 @@
 .shop-container {
   display: flex;
 }
+
+@media only screen and (max-width: 684px) {
+  .shop-container {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .shop-container {
+    justify-content: center;
+    display: inline;
+  }
+}
