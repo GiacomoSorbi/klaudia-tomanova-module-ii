@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Login.css";
 import useSignUpForm from "../../components/Hooks";
 import { NavLink } from "react-router-dom";
@@ -6,9 +6,10 @@ import { Button, Input, Footer } from "../../components";
 
 const Login = () => {
   const signIn = () => {
-    inputs.value
-      ? alert("You are logged in!")
-      : alert("You have to fill in all the fields first");
+    inputs.email === "" || inputs.password === ""
+      ? alert("You have to fill in all the fields first")
+      : alert("You are logged in!");
+    console.log(inputs.email);
   };
 
   const { inputs, handleInputChange, handleSubmit } = useSignUpForm(

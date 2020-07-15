@@ -5,15 +5,35 @@ import { Button, Input, Footer } from "../../components/index";
 
 const Registration = () => {
   const signUp = () => {
-    inputs.value
-      ? alert(`UserCreated! Name: ${inputs.name} Email: ${inputs.email}`)
-      : alert("You have to fill in all the fields first");
+    if (inputs.name === undefined) {
+      alert("You have to fill in all the fields first");
+    } else if (inputs.email === undefined) {
+      alert("You have to fill in all the fields first");
+    } else if (inputs.passwordOne === undefined) {
+      alert("You have to fill in all the fields first");
+    } else if (inputs.passwordTwo === undefined) {
+      alert("You have to fill in all the fields first");
+    } else {
+      alert(`UserCreated! Name: ${inputs.name} Email: ${inputs.email}`);
+    }
   };
 
   // disabling the sign up button
-  // const [disabled, setDisabled] = useState(true);
-  // const buttonDisabled = () => {
-  //   inputs.value ? disabled : setDisabled(!disabled);
+  //const [disabled, setDisabled] = useState(true);
+  //const buttonDisabled = () => {
+  //  {
+  //    if (inputs.name === undefined) {
+  //      disabled;
+  //    } else if (inputs.email === undefined) {
+  //      disabled;
+  //    } else if (inputs.passwordOne === undefined) {
+  //     disabled;
+  //    } else if (inputs.passwordTwo === undefined) {
+  //     disabled;
+  //    } else {
+  //      setDisabled(false);
+  //    }
+  //  }
   // };
 
   const { inputs, handleInputChange, handleSubmit } = useSignUpForm(
@@ -78,7 +98,7 @@ const Registration = () => {
             />
           </div>
           <Button
-            //disabled={buttonDisabled} or {!inputs.value}
+            // disabled={buttonDisabled}
             className="signup-button"
             type="submit"
           >
