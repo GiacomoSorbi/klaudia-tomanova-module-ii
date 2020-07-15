@@ -12,6 +12,9 @@
   display: flex;
   flex-direction: column;
   margin: 9rem auto auto 9rem;
+  height: 71vh;
+  object-fit: cover;
+  object-position: 75% 0;
 }
 
 .heading h1 {

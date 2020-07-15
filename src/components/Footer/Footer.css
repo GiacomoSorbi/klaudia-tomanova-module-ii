@@ -1,8 +1,7 @@
 .footer-wrapper {
-  width: 100%;
+  width: 100vw;
   display: flex;
-  margin-top: 0.7rem;
-  position: fixed;
+  margin-top: 0.3rem;
   bottom: 0;
   background-color: white;
   padding: 0.7rem;

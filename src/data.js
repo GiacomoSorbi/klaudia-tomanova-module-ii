@@ -1,6 +1,6 @@
-import dress from "../src/images/dress.jpg";
-import shirt from "../src/images/shirt.jpg";
-import shorts from "../src/images/shorts.jpg";
+import dress from "../src/images/dress.gif";
+import shirt from "../src/images/shirt.png";
+import shorts from "../src/images/shorts.png";
 
 export default {
   items: [
