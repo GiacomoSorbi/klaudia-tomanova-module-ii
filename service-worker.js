@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/klaudia-tomanova-module-ii/precache-manifest.5b2b93dcc537b24fdd4830f6ddb2e613.js"
+  "/klaudia-tomanova-module-ii/precache-manifest.dc86ec0167b2ee6aa230407e2a877fec.js"
 );
 
 self.addEventListener('message', (event) => {
