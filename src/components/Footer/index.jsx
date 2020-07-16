@@ -19,10 +19,10 @@ const Footer = () => (
         </NavLink>
       </div>
       <div className="footer-social">
-        <a className="social" href="#">
+        <a className="social" href="*">
           <FontAwesomeIcon icon={faFacebook} />
         </a>
-        <a className="social" href="#">
+        <a className="social" href="*">
           <FontAwesomeIcon icon={faInstagram} />
         </a>
       </div>

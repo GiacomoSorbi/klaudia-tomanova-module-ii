@@ -2,8 +2,6 @@ import React from "react";
 import "./Input.css";
 
 const Input = ({
-  success,
-  error,
   name,
   className,
   onChange,
@@ -13,8 +11,6 @@ const Input = ({
   children,
 }) => (
   <input
-    success={success}
-    error={error}
     name={name}
     className={className}
     onChange={onChange}

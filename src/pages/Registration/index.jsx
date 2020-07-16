@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import useSignUpForm from "../../components/Hooks";
+import React from "react";
+import useSignUpForm from "../../Hooks";
 import "./Registration.css";
 import { Button, Input, Footer } from "../../components/index";
 
@@ -14,27 +14,11 @@ const Registration = () => {
     } else if (inputs.passwordTwo === undefined) {
       alert("You have to fill in all the fields first");
     } else {
-      alert(`UserCreated! Name: ${inputs.name} Email: ${inputs.email}`);
+      alert(
+        `You have been registered! Name: ${inputs.name} Email: ${inputs.email}`
+      );
     }
   };
-
-  // disabling the sign up button
-  //const [disabled, setDisabled] = useState(true);
-  //const buttonDisabled = () => {
-  //  {
-  //    if (inputs.name === undefined) {
-  //      disabled;
-  //    } else if (inputs.email === undefined) {
-  //      disabled;
-  //    } else if (inputs.passwordOne === undefined) {
-  //     disabled;
-  //    } else if (inputs.passwordTwo === undefined) {
-  //     disabled;
-  //    } else {
-  //      setDisabled(false);
-  //    }
-  //  }
-  // };
 
   const { inputs, handleInputChange, handleSubmit } = useSignUpForm(
     {
@@ -97,11 +81,7 @@ const Registration = () => {
               value={inputs.passwordTwo}
             />
           </div>
-          <Button
-            // disabled={buttonDisabled}
-            className="signup-button"
-            type="submit"
-          >
+          <Button className="signup-button" type="submit">
             Sign Up
           </Button>
         </div>

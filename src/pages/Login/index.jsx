@@ -1,6 +1,6 @@
 import React from "react";
 import "./Login.css";
-import useSignUpForm from "../../components/Hooks";
+import useSignUpForm from "../../Hooks";
 import { NavLink } from "react-router-dom";
 import { Button, Input, Footer } from "../../components";
 
@@ -42,7 +42,7 @@ const Login = () => {
             onChange={handleInputChange}
             value={inputs.password}
           />
-          <a href="#">
+          <a href="*">
             <h6 className="login-forgot-heading">Zabudol/Zabudla som heslo</h6>
           </a>
           <Button className="login-button" type="submit">

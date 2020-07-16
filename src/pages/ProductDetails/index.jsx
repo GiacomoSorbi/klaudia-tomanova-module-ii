@@ -3,8 +3,7 @@ import logo from "../../404.svg";
 import "./ProductDetails.css";
 import { Footer } from "../../components";
 
-const ProductDetails = (props) => {
-  console.log(props.match.params.id);
+const ProductDetails = () => {
   return (
     <>
       <div className="product-details-box">
