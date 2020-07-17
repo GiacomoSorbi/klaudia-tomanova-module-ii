@@ -9,10 +9,10 @@ const Footer = () => (
     <div className="footer-wrapper">
       <div className="footer-text">
         <NavLink to="/about" exact>
-          <span>O nás</span>
+          <span>About</span>
         </NavLink>
         <NavLink to="*">
-          <span>Kontakt</span>
+          <span>Contact</span>
         </NavLink>
         <NavLink to="*">
           <span>FAQs</span>

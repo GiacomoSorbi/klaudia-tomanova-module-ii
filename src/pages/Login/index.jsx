@@ -43,7 +43,7 @@ const Login = () => {
             value={inputs.password}
           />
           <a href="*">
-            <h6 className="login-forgot-heading">Zabudol/Zabudla som heslo</h6>
+            <h6 className="login-forgot-heading">I forgot my password</h6>
           </a>
           <Button className="login-button" type="submit">
             Log In

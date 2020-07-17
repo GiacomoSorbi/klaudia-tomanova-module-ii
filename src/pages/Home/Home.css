@@ -1,4 +1,5 @@
 #hero-img {
+  max-height: 90vh;
   margin-top: -2rem;
   z-index: -1;
   position: absolute;
@@ -28,7 +29,7 @@
   margin-top: 1rem;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 887px) {
   .heading h1 {
     font-size: 2rem;
     width: 50%;

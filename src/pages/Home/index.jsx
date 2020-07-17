@@ -8,14 +8,14 @@ const Home = () => (
   <>
     <img id="hero-img" src={hero} alt="Logo" />
     <div className="heading">
-      <h1>Nakupuj zodpovedne</h1>
-      <h3>Slovenský online sekáč vytvorený ľuďmi</h3>
+      <h1>Shop responsibly</h1>
+      <h3>First Slovak online second-hand shop created by people</h3>
       <div>
         <Link to="/shop">
-          <Button>Kupujem</Button>
+          <Button>Buy</Button>
         </Link>
         <Link to="/login">
-          <Button>Predávam</Button>
+          <Button>Sell</Button>
         </Link>
       </div>
     </div>
